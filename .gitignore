@@ -6,13 +6,18 @@
 !*/cache/index.html
 !*/cache/.htaccess
 
-user_guide_src/build/*
-user_guide_src/cilexer/build/*
-user_guide_src/cilexer/dist/*
-user_guide_src/cilexer/pycilexer.egg-info/*
+# Exclude specific folders in CodeIgniter 4
+system/
+writable/
+uploads/
 
-#codeigniter 3
-application/logs/*
-!application/logs/index.html
-!application/logs/.htaccess
-/vendor/
+# Exclude specific files
+Vietnamese_Custom.json
+LangTran.php
+Vietnamese_2.51.json
+UpdateLanguage.php
+LangNotTran.php
+Ghi chu.txt
+English_2.5.1.json
+English_Custom.json
+.env
