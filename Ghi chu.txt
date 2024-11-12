@@ -1,0 +1,5 @@
+- LangNotTran.php: 
+ + Đọc các ngôn ngữ chưa được dịch (Dựa vào file đã dịch là file Vietnamese.json) trong CSDL để xuất ra file Vietnamese_NoTran.json;
+ + Lấy dữ liệu có trong Tiếng Anh (lang_id=1) mà chưa có trong Tiếng Việt (lang_id=2)
+
+- UpdateLanguage.php: Cập nhật/Thêm mới ngôn ngữ vào CSDL từ file Vietnamese.json hoặc file json truyền qua querystring file=tenfile.json;
